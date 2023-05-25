@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+*
+{
+    
+    box-sizing: border-box;
+    color: white;
+}
+
+body
+{
+    background-color: rgb(16,17,18);
+    margin: 0px;
+    overflow:hidden;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.header-container
+{
+   display: flex;
+   background-color:   rgb(30,31,32);
+   /* height: 60px; */
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem 2rem;
+}
+
+.header-left
+{    
+    /* padding: 10px; */
+}
+
+.header-right
+{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.main
+{
+    display: flex;
+    
+
+}
+
+.sidebar
+{
+    width: 20%;
+    min-width: 275px;
+    height: 100vh;
+    background-color: rgb(5,0,5);
+    /* background-color: blue; */
+}
+
+.content
+{
+    width: 80%;
+    height: 100vh;
+    background-color: rgb(10, 12, 13);
+    /* background-color: red; */
+}
+
+button
+{
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border-color: royalblue;
+    color: royalblue;
+      
+}
+
+button:hover
+{
+    background-color: royalblue;
+   
+    border-color: royalblue;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.sidebar > ul
+{
+    padding-left: 0px;
+    margin: 0px;
+}
+.nav-list
+{
+    list-style: none;
+    padding: 20px;
+
+}
+
+.nav-list:hover
+{
+    background-color: grey;
+}
