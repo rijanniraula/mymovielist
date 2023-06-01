@@ -8,6 +8,17 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	
 }
+
+a{
+	text-decoration: none;
+	color: black;
+
+}
+
+h1:hover{
+	transform: scale(1.05);
+
+}
 /*body
 {
 	background-color: #44444444;
@@ -50,7 +61,6 @@ body {
 
 h1{
 	margin-bottom: 5px;
-	
 }
 
 
