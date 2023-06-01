@@ -15,11 +15,10 @@ if (isset($_SESSION["user"])) {
 <head>
     <link rel="stylesheet" href="styles/dashboard.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>MML--Dashboard</title>
+    <title>MML--Edit Movie</title>
 </head>
 
 <body>
-
     <div class="header-container">
         <div class="header-left">MyMovieList</div>
 
@@ -31,18 +30,18 @@ if (isset($_SESSION["user"])) {
     <div class="main">
         <div class="sidebar">
             <ul>
-
-                <li class="nav-list" style="background-color: royalblue; color: white;"><i class="fa-solid fa-chart-line"></i> Dashboard</li>
-
+                <a href="admin-dashboard.php">
+                    <li class="nav-list"><i class="fa-solid fa-chart-line"></i> Dashboard</li>
+                </a>
                 <a href="add-movie.php">
                     <li class="nav-list"><i class="fa-solid fa-photo-film"></i> Add Movie</li>
                 </a>
                 <a href="edit-movie.php">
                     <li class="nav-list"><i class="fa-solid fa-pen-to-square"></i> Edit Movie</li>
                 </a>
-                <a href="manage-users.php">
-                    <li class="nav-list"><i class="fa-solid fa-users"></i> Manage Users</li>
-                </a>
+
+                <li class="nav-list" style="background-color: royalblue; color: white;"><i class="fa-solid fa-users"></i> Manage Users</li>
+
                 <a href="logout.php">
                     <li class="nav-list" id="li-logout">
                         <i class="fa-solid fa-right-from-bracket"></i>Log Out
@@ -50,8 +49,6 @@ if (isset($_SESSION["user"])) {
                 </a>
             </ul>
         </div>
-
-
 
 
         <div class="content">

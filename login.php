@@ -69,7 +69,9 @@ if (isset($_POST['submit'])) {
 	<div class="log" align="center">
 
 
-		<h1>MyMovieList</h1>
+		<a href="home.php">
+			<h1>MyMovieList</h1>
+		</a>
 		<span class="incorrect"><?php echo $msg; ?></span>
 
 		<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
