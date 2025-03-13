@@ -1,0 +1,103 @@
+.supercontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #11121c;
+  align-items: center;
+}
+
+.maincontainer {
+  background-color: #11121c;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  width: 80%;
+  color: white;
+}
+
+.sectionContainer {
+  padding: 5rem 3rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/projector.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* width: 80%; */
+  margin-top: 2rem;
+  border-radius: 32px;
+}
+
+.searchContainer {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.searchButton {
+  padding: 0.7rem;
+  font-size: 16px;
+  background-color: #ec971f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background-color: #f0ad4e;
+}
+
+.heading {
+  font-size: xx-large;
+  color: white;
+  font-weight: bolder;
+  /* margin-left: 2px; */
+}
+
+.heroline {
+  font-size: medium;
+  color: white;
+  margin-top: 10px;
+}
+
+.searchContainer {
+  padding: 1.5rem 0;
+}
+
+.search {
+  padding: 1.4rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.btnBrowse {
+  padding: 0.7rem;
+  background-color: #ec971f;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.btnBrowse:hover {
+  background-color: #f0ad4e;
+}
+
+.newreleasecontainer,
+.topratedcontainer,
+.recentcontainer {
+  padding-top: 2rem;
+}
+
+.resultsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem 2rem;
+  /*  */
+  flex-grow: 1;
+  margin: auto;
+}

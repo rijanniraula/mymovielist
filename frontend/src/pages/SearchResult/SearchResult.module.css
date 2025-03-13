@@ -1,0 +1,42 @@
+
+.maincontainer{
+  background-color: #11121C;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-start;
+  /* height: 100vh; */
+}
+
+.searchresultcontainer{
+  width: 80%;
+  margin: auto;
+  background-color: #11121C;
+  flex-grow: 1;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  font-size: medium;
+  font-weight: 400;
+  
+}
+
+.resultsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem 2rem;
+  /*  */
+  flex-grow: 1;
+  margin: auto;
+  
+}
+
+.noResults {
+  text-align: center;
+  font-size: 1.2rem;
+  color: red;
+}

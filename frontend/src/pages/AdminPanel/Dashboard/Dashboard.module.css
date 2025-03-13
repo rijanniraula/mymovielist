@@ -1,0 +1,30 @@
+.dashboardmain{
+    display: flex;
+    /* gap: 1rem; */
+    flex-grow: 1;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+.dashboardcontainer{
+    padding: 3rem 1rem 0 1rem;
+    flex-grow: 1;
+    padding-right: 1rem;
+    overflow: hidden;
+}
+
+.totalcountcontainer{
+   display: flex;
+   flex-wrap: warp;
+   gap: 1rem;
+   padding: 1rem 0rem;
+}
+
+.totalmoviescontainer, .totaluserscontainer{
+    -webkit-box-shadow: 2px 0px 5px 2px rgba(85, 85, 85, 0.223);
+  -moz-box-shadow: 2px 0px 5px 2px rgba(85, 85, 85, 0.223);
+  box-shadow: 2px 0px 5px 2px rgba(85, 85, 85, 0.223);
+    border-radius: 8px;
+    width: 250px;
+    padding: 1rem;
+}

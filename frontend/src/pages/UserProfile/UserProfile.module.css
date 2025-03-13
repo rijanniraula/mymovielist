@@ -1,0 +1,40 @@
+.maincontainer {
+  background-color: #11121c;
+  height: 100vh;
+  /* color: white; */
+  display: flex;
+  flex-direction: column;
+}
+
+.bodycontainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.userprofilecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: White;
+  padding: 3rem 4rem 2rem 4rem;
+  border-radius: 2rem;
+}
+.userprofilecontainer > div > div {
+  padding-top: 1rem;
+}
+.logoutbutton {
+  background: #6600ff;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  width: auto;
+  border: none;
+  padding: 0.4rem;
+}
+.logoutbutton:hover {
+  background: #7727f0;
+}

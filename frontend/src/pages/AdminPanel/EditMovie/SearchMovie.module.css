@@ -1,0 +1,81 @@
+.bodycontainer{
+    display: flex;
+    /* gap: 1rem; */
+    
+}
+.maincontainer{
+    padding: 3rem 1rem 0 1rem;
+    flex-grow: 1;
+    padding-right: 1rem;
+    /* overflow: hidden; */
+}   
+
+.searchandresultcontainer{
+    height: 90%;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 32px 32px 32px;
+    padding: 1rem;
+}
+
+.searchcontainer{
+    display: flex;
+    gap: 1rem;
+}
+
+.searchcontainer > input[type='text']{
+    height: 40px;
+    /* width: fit-content; */
+    padding: 0 .5rem ;
+    background: #D9D9D9;
+    border-radius: 5px;
+}
+
+.searchcontainer > button{
+    background: #4903b4;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    width: auto;
+    border: none;
+    padding: 0.4rem;
+}
+
+.searchcontainer > button:hover{
+    background-color: #6600FF;
+}
+
+.resultcontainer{
+    padding: 1rem 0;
+}
+
+.resulttable {
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.resulttable th, .resulttable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+.resulttable th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.resulttable tr:hover {
+    background-color: #f9f9f9;
+}
+
+.resulttable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.thumbnail {
+    width: 100px; 
+    height: auto; 
+    border-radius: 5px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+}

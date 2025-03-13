@@ -1,0 +1,62 @@
+/* Watchlist.module.css */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.section {
+  flex: 1;
+  background-color: #f4f4f4;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.movieList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.movieItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movieItem button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.movieItem button:hover {
+  background-color: #c0392b;
+}
+
+.loadingMessage {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #888;
+}
+
+li > span {
+  color: black;
+}

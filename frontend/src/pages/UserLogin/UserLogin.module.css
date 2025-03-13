@@ -1,0 +1,81 @@
+.maincontainer {
+  height: 100vh;
+  overflow: hidden;
+}
+.logincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #11121c;
+  height: 100%;
+}
+
+.loginform {
+  background-color: #d2d3d8;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginform h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.inputgroup {
+  margin-bottom: 15px;
+}
+
+.inputgroup input {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* .options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+} */
+
+.loginbtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #2d8bf0;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginbtn:hover {
+  background-color: #1d6bbf;
+}
+
+p {
+  margin: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+a {
+  color: #2d8bf0;
+  text-decoration: none;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.noaccount {
+  text-align: center;
+  padding-top: 1rem;
+}
